@@ -99,16 +99,18 @@ body {
 .main .tabs {
   display: flex;
   font-size: 20px;
+  cursor: pointer;
 }
 .main .tabs .tab {
   background: #fff;
   padding: 10px;
   margin-right: 13px;
   border-radius: 3px;
+  cursor: pointer;
   border: 1px solid #e1e1e1;
 }
 .active-tabs {
-  background: #2185d0 !important;
+  background:red !important;
   color: white;
 }
 .main .tabs .tab:hover {
